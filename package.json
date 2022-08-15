@@ -1,7 +1,7 @@
 {
   "name": "project-demo",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "lib/pikaz-compoment.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,7 +10,6 @@
     "lib": "vue-cli-service build --target lib --name pikaz-compoment --dest lib src/index.js"
   },
   "dependencies": {
-    "compoment-demo": "git+https://github.com/shitoujianzibu/pageageTest.git",
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
