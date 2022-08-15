@@ -1,9 +1,9 @@
 <template>
-  <div>我是头部</div>
+  <div>我是Footer</div>
 </template>
 
 <script>
 export default {
-  name: "MyHeader",
+  name: "MyFooter",
 };
 </script>
