@@ -2,6 +2,7 @@
   "name": "hello-world",
   "version": "0.1.0",
   "private": true,
+  "main": "lib/pikaz-compoment.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,6 +10,7 @@
     "lib": "vue-cli-service build --target lib --name pikaz-compoment --dest lib src/index.js"
   },
   "dependencies": {
+    "compoment-demo": "git+https://github.com/shitoujianzibu/pageageTest",
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
