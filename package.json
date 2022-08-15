@@ -10,7 +10,7 @@
     "lib": "vue-cli-service build --target lib --name pikaz-compoment --dest lib src/index.js"
   },
   "dependencies": {
-    "compoment-demo": "git+https://github.com/shitoujianzibu/pageageTest",
+    "compoment-demo": "git+https://github.com/shitoujianzibu/pageageTest.git",
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
